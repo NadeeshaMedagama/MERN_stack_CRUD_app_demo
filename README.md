@@ -1,3 +1,52 @@
+# 🛠️ MERN Stack CRUD Application
+
+This is a simple full-stack CRUD (Create, Read, Update, Delete) application built using the **MERN stack** (MongoDB, Express.js, React, Node.js). It allows users to add, view, update, and delete items with a clean and responsive UI.
+
+---
+##  Live Demo
+
+🔗 [Live Website](https://your-deployment-link.com)
+
+---
+##  Features
+
+- 🔹 Add new items
+- 🔹 View all items from the database
+- 🔹 Update item names
+- 🔹 Delete items
+- 🔹 RESTful API integration
+- 🔹 Environment variable support with `.env`
+- 🔹 Responsive frontend built with React
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js, HTML, CSS, JavaScript
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB (with Mongoose)
+- **Others**: dotenv, CORS
+
+## 📦 Installation Instructions
+
+# Clone the repository
+```
+git clone https://github.com/YourUsername/YourRepo.git
+cd YourRepo
+```
+
+# Backend setup
+```
+cd backend
+npm install
+npm start
+```
+
+# Frontend setup (in separate terminal)
+```
+cd client
+npm install
+npm start
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
