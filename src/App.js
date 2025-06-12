@@ -10,21 +10,9 @@ function App() {
   const [editingName, setEditingName] = useState('');
 
   const fetchItems = async () => {
-    try {
-      const res = await fetch(API_URL);
-      if (!res.ok) throw new Error('Failed to fetch');
-      const data = await res.json();
-      // Add validation:
-      if (Array.isArray(data)) {
-        setItems(data);
-      } else {
-        console.error('API did not return an array:', data);
-        setItems([]);
-      }
-    } catch (error) {
-      console.error('Fetch error:', error);
-      setItems([]);
-    }
+    const res = await fetch(API_URL);
+    const data = await res.json();
+    setItems(data);
   };
 
   useEffect(() => {
