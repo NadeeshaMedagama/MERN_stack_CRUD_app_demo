@@ -5,7 +5,7 @@ This is a simple full-stack CRUD (Create, Read, Update, Delete) application buil
 ---
 ##  Live Demo
 
-🔗 [Live Website](https://mern-demo-video-record-nadeesha.netlify.app/)
+🔗 [Live Website](https://mern-crud-demo-nadeesha.netlify.app/)
 
 ---
 ## Features
