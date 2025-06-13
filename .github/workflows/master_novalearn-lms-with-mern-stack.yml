@@ -24,7 +24,7 @@ jobs:
 
       # 3) Install & build
       - name: Install dependencies
-        run: npm ci            # faster & reproducible
+        run: npm install            # faster & reproducible
       - name: Build React app
         run: npm run build     # produces ./build
 
