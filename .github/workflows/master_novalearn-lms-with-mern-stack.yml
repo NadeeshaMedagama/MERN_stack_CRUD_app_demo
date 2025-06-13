@@ -42,3 +42,5 @@ jobs:
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DEA5474795C64C84B539838D9BFC1A2F }}
           package: ./build                           # <-- critical change
           clean: true
+          enable-oryx-build: false
+          scm-do-build-during-deployment: false
